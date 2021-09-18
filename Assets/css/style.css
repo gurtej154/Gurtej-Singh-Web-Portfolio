@@ -62,7 +62,7 @@
 
 .main {
  display: inline-block; 
- margin: 10px;
+ margin: 35px; /* Change this around to see if the main title fits */
  flex-direction: column;
  align-items: center;
  position: absolute; 
@@ -93,5 +93,53 @@
     font-weight: bold;
 }
 
+/* About section */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+#pic {
+    display: flex;
+}
+
+#pic image {
+    width: 575px;
+    height: 400px; 
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Portfolio section */
+#portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery image {
+    width: 360px;
+    height: 240px;
+    align-items: center;
+}
 
 
