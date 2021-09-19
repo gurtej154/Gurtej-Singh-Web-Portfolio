@@ -1,0 +1,14 @@
+/* About */
+#pic {
+    display: flex;
+}
+
+#pic img {
+    width: 49%;
+    height:30%;
+}
+
+#intro h3 {
+    text-align: center;
+    padding: 10px;
+}

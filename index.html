@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Gurtej-Singh-Web-Portfolio/Assets/css/style.css">
+    <link rel="Stylesheet" media="screen and (max-width:800px)"
+        href="/Gurtej-Singh-Web-Portfolio/Assets/css/tablet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="G logo icon" href="/Gurtej-Singh-Web-Portfolio/Assets/Images/G logo (black) .png" type="image/png">
+    <title>Web Portfolio | Gurtej Singh</title>
 
 
 </head>
@@ -17,17 +21,17 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio1">Portfolio</a></li>
+            <li><a href="#portfolio2">Future Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 
     <section id="home">
         <div class="main">
             <h1 class="headings">Gurtej Singh <br> Web Developer in the making</h1>
-            <div class="logo"></div>
             <button class="btn">
                 Explore
             </button>
@@ -35,18 +39,18 @@
     </section>
 
     <section id="about">
-        <h1 class="headings">ABOUT ME</h1> 
+        <h1 class="headings">ABOUT ME</h1>
         <div id="pic">
-            <img src="/Gurtej-Singh-Web-Portfolio/Assets/Images/Myself-sitting-image.png" alt="Profile" />
+            <img src="/Gurtej-Singh-Web-Portfolio/Assets/Images/Self-image.png" alt="Profile" />
             <div id="intro">
-                <h3>Aspiring future software developer from Adelade, Australia</h3> 
+                <h3>Aspiring future software developer from Adelade, Australia</h3>
                 <p>
                     I am a articulate individual with passion in developing ideas from scratch and seeing them thrive
                     into something evolutionary.
                 </p><br>
                 <p>During my junior years, I studied Architecture and attained Bachelor's of Applied Science from Curtin
                     University and went on to being a graduate Architect, however during the short stint within the
-                    industry i realised that i lost my passion for the profession.
+                    industry I realised that I lost my passion for the profession.
                 </p><br>
                 <p>Currently I am enrolled within a Bootcamp for coding, challenging myself to learn new skills and
                     pursue a career within the tech industry and hopefully utilise my software developer background
@@ -56,13 +60,101 @@
         </div>
     </section>
 
-
-    <section id="portfolio">
-        <h1 class="headings">PORTFOLIO</h1>
-        <div class="gallery">
-            <img src="/Gurtej-Singh-Web-Portfolio/Assets/Images/Landing-webpage-snapshot.png" alt="Project 1"/>
+    <section id="portfolio1">
+        <h1 class="headings"> HORISEON | CODE REFACTOR PROJECT </h1>
+        <div id="pic">
+            <img src="/Gurtej-Singh-Web-Portfolio/Assets/Images/Landing-webpage-snapshot.png" alt="snapshot" />
+            <div id="intro">
+                <h3>A landing webpage for a SEO and Digital Marketing Agency</h3>
+                <p>
+                    This project presents a concise and formulated integration of HTML and CSS in the whole
+                    user-experience of the landing webpage.
+                </p><br>
+                <p>
+                    Horiseon, were looking for a new way to connect with their clients and user-base
+                    by strengthening the overall experience and level of business.
+                </p><br>
+                <p>
+                    Through my existing skills I was able to deliver
+                    a web landing page that sufficed their needs and enhance their business overall.
+                </p>
+                <div class="button"><a href="https://gurtej154.github.io/Code-refactor-project/" target="_blank">
+                        Visit Webpage</a>
+                </div>
+            </div>
         </div>
     </section>
+
+
+    <section id="portfolio2">
+        <h1 class="headings">FUTURE PROJECTS</h1>
+        <div class="gallery">
+            <a href="https://placeholder.com" target="_blank"><img src="https://via.placeholder.com/370"></a>
+            <a href="https://placeholder.com" target="_blank"><img src="https://via.placeholder.com/370"></a>
+            <a href="https://placeholder.com" target="_blank"><img src="https://via.placeholder.com/370"></a>
+            <a href="https://placeholder.com" target="_blank"><img src="https://via.placeholder.com/370"></a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">CONTACT INFORMATION</h1>
+        <form class="submission-form">
+
+            <label for="first-name">
+                FIRST NAME
+            </label>
+
+            <input type="text" id="first-name">
+
+            <label for="last-name">
+                LAST NAME
+            </label>
+
+            <input type="text" id="last-name">
+
+            <label for="email">
+                EMAIL
+            </label>
+
+            <input type="email" id="email">
+
+            <label for="phone">
+                MOBILE PHONE
+            </label>
+
+            <input type="tel" id="phone">
+
+            <label for="message">
+                MESSAGE
+            </label>
+
+            <textarea id="message"></textarea>
+
+            <input type="submit" value="Send" id="sendBtn">
+
+        </form>
+    </section>
+
+    <div class="footer-social-icons">
+        <h3 class="title">Visit Gurtej Singh on</h3>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><i class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://au.linkedin.com/" target="_blank"><i class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/gurtej154" target="_blank"><i class="soc ial-icon"> <i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+
 
 
 </body>
