@@ -408,3 +408,19 @@ ul.social-icons {
 .fa-github:hover {
     background-color: #5a32a3;
 }
+
+/* Media queries for various screen sizes */ 
+
+@media screen and (max-width: 1000px) {
+    #home::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: url(/Gurtej-Singh-Web-Portfolio/Assets/Images/Beach-volleyball_bsackground_cover.png) no-repeat center center/cover;
+        height: 900px;
+        width: 100%;
+        z-index: -1;
+        opacity: .8;
+    }
+}
