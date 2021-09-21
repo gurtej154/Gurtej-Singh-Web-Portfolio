@@ -16,7 +16,7 @@ The webpage has a basic outline of storytelling, allowing the visitor to journey
 ## Usage
 The following displays the link to the web portfolio and live-demo of exploring the website. Enjoy! 
 
-Click the following link to access the landing webpage: https://gurtej154.github.io/Gurtej-Singh-Web-Portfolio/
+Click the following link to access the web-portfolio: https://gurtej154.github.io/Gurtej-Singh-Web-Portfolio/
 
 ![Website-gif](./Web-portfolio.gif)
 

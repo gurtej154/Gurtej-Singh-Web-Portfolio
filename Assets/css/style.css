@@ -410,6 +410,7 @@ ul.social-icons {
 }
 
 /* Media queries for various screen sizes */ 
+/* Media query for tablet screen */
 
 @media screen and (max-width: 800px) {
 
@@ -656,3 +657,5 @@ ul.social-icons {
     font-family: 'Roboto', sans-serif;
     font-size: 15px; 
 }
+
+/* Might need to add the media queries to a separate css file or files to reduce congestion on main css styling file */
