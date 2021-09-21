@@ -446,9 +446,9 @@ ul.social-icons {
     }
 
     #intro {
-        width: 50%;
-        padding: 30px;
-        margin-top: 140px; 
+        width: 10%;
+        padding: 10px;
+        margin-top: 10px; 
     }
 
     p {
@@ -458,20 +458,18 @@ ul.social-icons {
 
     /* Horiseon - code refactor project */
     
-    button {
-        margin-top: 50px;
-        padding: 10px;
-        width: 125px;
+    .button {
+        margin-top: 20px;
+        padding: 0px;
         background-color: white;
         border: 1px solid black;
         color: black;
         outline: none;
         transition: .6s ease;
         border-radius: 100px;
+        text-align: center;
     }
     
-
-
     /* Portfolio of projects section */
 
     .gallery img {
@@ -530,4 +528,131 @@ ul.social-icons {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
+
+/* Media query for iphone/galaxy screen sizes */
+
+@media screen and (max-width: 500px) {
+    * Homepage section*/
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar ul li {
+        font-family: 'Roboto', sans-serif;
+        font-size: .3rem;
+    }
+
+    #home::before {
+        height: 250px;
+        width: 100%;
+    }
+
+    #home {
+        height: 205px;   
+    }
+
+    .headings {
+        font-family: 'Roboto', sans-serif;
+        font-size: .8rem;
+    }
+
+    .btn {
+        padding: 2px;   
+    }
+
+    /* About me section */
+
+    #intro h3 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    #intro {
+        width: 50%;
+        padding: 30px;
+        margin-top: 140px; 
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: .6rem;
+    }
+
+    /* Horiseon - code refactor project */
+    
+    .button {
+        margin-top: 20px;
+        padding: 0px;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        outline: none;
+        transition: .6s ease;
+        border-radius: 100px;
+        text-align: center;
+    }
+    
+    /* Portfolio of projects section */
+
+    .gallery img {
+        width: 170px;
+        height: 170px;
+        margin: 10px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 40px 0px;
+    }
+
+    /* Forms and contact section */
+     
+    
+.submission-form {
+    max-width: 250px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+    label {
+    display: block;
+    padding: 1rem 0 .5rem;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+    input, textarea {
+        display: block;
+    }
+    
+    #sendBtn {
+        border:0;
+        background: #343050;
+        padding: .5rem;
+        color: white;
+        margin: 1rem 0;
+        width: auto;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 30px;
+        font-size: 10px;
+        transition: .3s ease;
+    }
+    
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
 }
