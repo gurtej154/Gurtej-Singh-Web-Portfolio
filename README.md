@@ -18,7 +18,7 @@ The latter components contain the snapshot of the Horiseon landing webpage's int
 
 Click the following link to access the landing webpage: https://gurtej154.github.io/Gurtej-Singh-Web-Portfolio/
 
-![Website-gif](./Website-gif.gif)
+![Website-gif](./Web-portfolio.gif)
 
 ## License
 Copyright (c) 2021 Gurtej Singh
@@ -38,10 +38,20 @@ To contribute, modify or edit in general;
 
 
 ```
-git@github.com:gurtej154/Code-refactor-project.git
+HTTPS
+https://github.com/gurtej154/Gurtej-Singh-Web-Portfolio.git
+
+or
+
+SSH
+git@github.com:gurtej154/Gurtej-Singh-Web-Portfolio.git
 ```
 - Enter git clone 
 ```
-git clone git@github.com:gurtej154/Code-refactor-project.git
+git clone https://github.com/gurtej154/Gurtej-Singh-Web-Portfolio.git
+
+or
+
+git clone git@github.com:gurtej154/Gurtej-Singh-Web-Portfolio.git
 ```
 - Start accessing the project's content!
