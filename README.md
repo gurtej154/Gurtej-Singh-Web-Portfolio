@@ -18,7 +18,7 @@ The latter components contain the snapshot of the Horiseon landing webpage's int
 
 Click the following link to access the landing webpage: https://gurtej154.github.io/Gurtej-Singh-Web-Portfolio/
 
-![Web Portfolio - Gurtej Singh]()
+![Website-gif](./Website-gif.gif)
 
 ## License
 Copyright (c) 2021 Gurtej Singh
