@@ -14,7 +14,7 @@ The webpage has a basic outline of storytelling, allowing the visitor to journey
 - [Contribute](#contribute)
 
 ## Usage
-The latter components contain the snapshot of the Horiseon landing webpage's interface and the live web link to the page. 
+The following displays the link to the web portfolio and live-demo of exploring the website. Enjoy! 
 
 Click the following link to access the landing webpage: https://gurtej154.github.io/Gurtej-Singh-Web-Portfolio/
 
