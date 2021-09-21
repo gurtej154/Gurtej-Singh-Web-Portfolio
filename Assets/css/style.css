@@ -411,16 +411,113 @@ ul.social-icons {
 
 /* Media queries for various screen sizes */ 
 
-@media screen and (max-width: 1000px) {
-    #home::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        right: 0;
-        background: url(/Gurtej-Singh-Web-Portfolio/Assets/Images/Beach-volleyball_bsackground_cover.png) no-repeat center center/cover;
-        height: 900px;
-        width: 100%;
-        z-index: -1;
-        opacity: .8;
+@media screen and (max-width: 800px) {
+
+    /* Homepage section*/
+
+    .navbar ul li {
+        font-family: 'Roboto', sans-serif;
+        font-size: .7rem;
     }
+
+    #home::before {
+        height: 500px;
+        width: 100%;
+    }
+
+    #home {
+        height: 445px;   
+    }
+
+    .headings {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 2px;   
+    }
+
+    /* About me section */
+
+    #intro h3 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    #intro {
+        width: 50%;
+        padding: 30px;
+        margin-top: 140px; 
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: .6rem;
+    }
+
+    /* Horiseon - code refactor project */
+
+    
+    
+
+
+    /* Portfolio of projects section */
+
+    .gallery img {
+        width: 170px;
+        height: 170px;
+        margin: 10px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 40px 0px;
+    }
+
+    /* Forms and contact section */
+     
+    
+.submission-form {
+    max-width: 250px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+    label {
+    display: block;
+    padding: 1rem 0 .5rem;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+    input, textarea {
+        display: block;
+    }
+    
+    #sendBtn {
+        border:0;
+        background: #343050;
+        padding: .5rem;
+        color: white;
+        margin: 1rem 0;
+        width: auto;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 30px;
+        font-size: 10px;
+        transition: .3s ease;
+    }
+    
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
 }
