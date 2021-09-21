@@ -457,8 +457,18 @@ ul.social-icons {
     }
 
     /* Horiseon - code refactor project */
-
     
+    button {
+        margin-top: 50px;
+        padding: 10px;
+        width: 125px;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        outline: none;
+        transition: .6s ease;
+        border-radius: 100px;
+    }
     
 
 
